@@ -1,0 +1,303 @@
+body{
+  padding:10px;
+  box-sizing: border-box;
+}
+.p1{
+  background-color: chocolate;
+  padding:12px;
+}
+.p2{
+  background-color: DarkOrange;
+  padding:12px;
+}
+.p3{
+  background-color: DarkViolet;
+  padding:12px;
+}
+.p4{
+  background-color: rgb(52,66,165);
+  padding:12px;
+}
+.p5{
+  background-color: rgb(96,130,14);
+  padding:12px;
+}
+.p6{
+  background-color: rgb(200,125,200);
+  padding:12px;
+}
+.p7{
+  background-color: #429838;
+  padding:12px;
+}
+.p8{
+  background-color: #423784;
+  padding:12px;
+}
+.p9{
+  background-color: #007A84;
+  padding:12px;
+}
+.p10{
+  background-color: rgb(128,128,64,0.1);
+  padding:12px;
+}
+.p11{
+  background-color: rgb(128,128,64,0.5);
+  padding:12px;
+}
+.p12{
+  background-color: rgb(128,128,64, 1);
+  padding:12px;
+}
+.gradient1{
+  height: 200px;
+  background-image: linear-gradient(rgb(200,125,200),#007A84);
+}
+.gradient2{
+  height: 200px;
+  background-image: linear-gradient(to bottom left,rgb(200,125,200),#007A84);
+}
+.img1{
+  width:500px;
+  height:500px;
+  position:relative;
+}
+.fltitle{
+  width: 300px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:20px;
+  top: 0px;
+  left: 185px;
+  text-align: center;
+  font-size: 2em;
+  color: lightblue;
+}
+.container{
+  width: 500px;
+  height:1400px;
+  position: relative;
+}
+.txtfl{
+  width:300px;
+  position: absolute;
+  color: orange;
+  font-size: 3em;
+  bottom: 400px;
+  right: 0px;
+  left: 60px;
+}
+.heroimage{
+  background-image: linear-gradient(to top left,rgba(128, 128, 64, 0.7),rgba(128, 0, 255, 0.5)),url("images/flower.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:600px;
+  width: 600px;
+  position:relative;
+}
+.heroText{
+
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  bottom: 30%;
+  color: white;
+  text-align: center;
+}
+.submit{
+  color: lightgray;
+  text-decoration: none;
+  display: inline-block;
+  margin-top:60px;
+  background-color: rgba(0,0,0,0.3);
+  padding:20px;
+  border-radius: 10px;
+}
+.submit:hover{
+  background-color: rgba(255,255,255,0.6);
+  color: red;
+  box-shadow: 0px 0px 10px 5px blue;
+}
+.filterContainer{
+  height: 1000px;
+  width:1000px;
+  margin: auto;
+
+
+}
+.filterContainer img{
+  width: 40%;
+  height:40%;
+  margin: 20px;
+}
+.blur1{
+  filter: blur(1px);
+}
+.blur2{
+  filter: blur(5px);
+}
+.blur3{
+  filter: blur(10px);
+}
+.blur4{
+  filter: blur(20px);
+}
+.Constrast1{
+  filter: contrast(0%);
+}
+.Constrast2{
+  filter: contrast(30%);
+}
+.Constrast3{
+  filter: contrast(60%);
+}
+.Constrast4{
+  filter: contrast(100%);
+}
+/*Invert Images*/
+.Invert1{
+  filter: invert(0%);
+}
+.Invert2{
+  filter: invert(30%);
+}
+.Invert3{
+  filter: invert(60%);
+}
+.Invert4{
+  filter: invert(100%);
+}
+
+
+.container2{
+  width: 700px;
+  height: 600px;
+  position: relative;
+}
+.img2{
+
+    width:500px;
+    height:500px;
+    position:relative;
+    filter: invert(60%);
+}
+.sltitle{
+  font-size: 2em;
+  color: blue;
+  padding:20px;
+  width: 200px;
+  bottom: 300px;
+  left: 50px;
+  position: absolute;
+}
+ .sltext{
+  width: 200px;
+  bottom: 200px;
+  left: 40px;
+  color:white;
+  position: absolute;
+  border: solid 5px white;
+  padding: 10px;
+
+}
+/*image2*/
+.maimage{
+  background-size: 100% 100%;
+  height:700px;
+  width: 700px;
+  position:relative;
+  filter: blur(3px);
+}
+.container3{
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+.matitle{
+  font-size: 2.5em;
+  position: absolute;
+  color:red;
+  top:-240%;
+  left: 15%;
+  padding:20px;
+
+
+}
+.matext{
+  font-size: 15px;
+  font-style: italic;
+
+  padding: 10px;
+  position: absolute;
+  width:500px;
+
+  left: 15%;
+  box-shadow:  0px 0px 5px 5px black;
+  opacity: 0.5;
+  top: -150%;
+
+}
+.masubmit{
+  color: lightgray;
+  text-decoration: none;
+  display: inline-block;
+  bottom: 200%;
+  background-color: rgba(0,0,0,0.3);
+  padding:20px;
+  border-radius: 10px;
+
+
+}
+.masubmit:hover{
+
+    background-color: orange;
+    color: green;
+    box-shadow: 0px 0px 5px 5px black;
+
+}
+/*image3*/
+.container4{
+  width: 700px;
+  height:700px;
+  background-image: linear-gradient(to top left,lightblue,lightgreen,url("images/cp.jpg"));
+}
+.cptitle{
+  color:brown ;
+  font-size: 4em;
+  left: 20%;
+  top:-25%;
+  bottom:90%;
+  text-align: center;
+  position: relative;
+}
+
+.cptxt1{
+  color:white;
+  position: relative;
+  width: 150px;
+  font-size: 10px;
+  font-style: italic;
+  left: 5%;
+  bottom: 72%;
+}
+.cptxt2{
+  color: white;
+  position: relative;
+  font-size: 15px;
+  width: 50px;
+  left: 85%;
+  bottom:95%;
+  font-style: oblique;
+
+
+}
+.cptxt3{
+  color: white;
+  position: relative;
+  font-size: 10px;
+  width:100px;
+  bottom: 130%;
+  left:42%;
+
+}

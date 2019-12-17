@@ -1,0 +1,36 @@
+body{
+  background-color: lightgreen; padding: 30px
+}
+.title{
+  color:darkblue;
+  text-align: center; font-size: 5em; text-shadow: 20px -10px 5px black;
+  font-family: "Bauhaus 93"
+
+}
+.name{color:purple; font-size: 150%; text-align: right;
+  font-family: "Brush Script Std"
+
+}
+p.p1::first-letter{
+  color: red;
+  font-size: 4em;
+  font-family: fantasy;
+
+}
+.p1{ text-align: justify; color: yellow;
+
+}
+.fig1{
+  border-top: dotted 10px black;
+  border-bottom: solid 10px black;
+  border-right: groove 10px green;
+  border-left: groove 10px green;
+  margin: 30px;
+}
+.figcap1{
+  font-size: 100%; font-family: "Arial Black";
+  text-align: left; color: pink;
+}
+.footer{
+  font-size: 80%; text-align: center; color: darkred; font-family: cursive;
+}
